@@ -337,7 +337,7 @@ homekit_accessory_t *accessories[] = {
             HOMEKIT_SERVICE(ACCESSORY_INFORMATION, .characteristics=(homekit_characteristic_t*[]) {
                 HOMEKIT_CHARACTERISTIC(NAME, "Multi Sensor"),
                 HOMEKIT_CHARACTERISTIC(MANUFACTURER, "Sam"),
-                HOMEKIT_CHARACTERISTIC(SERIAL_NUMBER, "012345"),
+                HOMEKIT_CHARACTERISTIC(SERIAL_NUMBER, "SLMPSMST1"),
                 HOMEKIT_CHARACTERISTIC(MODEL, "Multi Sensor"),
                 HOMEKIT_CHARACTERISTIC(FIRMWARE_REVISION, "1.0.0"),
                 HOMEKIT_CHARACTERISTIC(IDENTIFY, identify_temp),
@@ -360,7 +360,7 @@ homekit_accessory_t *accessories[] = {
             HOMEKIT_SERVICE(ACCESSORY_INFORMATION, .characteristics=(homekit_characteristic_t*[]) {
                 HOMEKIT_CHARACTERISTIC(NAME, "Motion Sensor"),
                 HOMEKIT_CHARACTERISTIC(MANUFACTURER, "Sam"),
-                HOMEKIT_CHARACTERISTIC(SERIAL_NUMBER, "012346"),
+                HOMEKIT_CHARACTERISTIC(SERIAL_NUMBER, "SLMPSMSM1"),
                 HOMEKIT_CHARACTERISTIC(MODEL, "Occupancy Sensor"),
                 HOMEKIT_CHARACTERISTIC(FIRMWARE_REVISION, "1.0.0"),
                 HOMEKIT_CHARACTERISTIC(IDENTIFY, identify_mot),
@@ -377,7 +377,7 @@ homekit_accessory_t *accessories[] = {
             HOMEKIT_SERVICE(ACCESSORY_INFORMATION, .characteristics=(homekit_characteristic_t*[]){
                 HOMEKIT_CHARACTERISTIC(NAME, "Mood Light"),
                 HOMEKIT_CHARACTERISTIC(MANUFACTURER, "Sam"),
-                HOMEKIT_CHARACTERISTIC(SERIAL_NUMBER, "012347"),
+                HOMEKIT_CHARACTERISTIC(SERIAL_NUMBER, "SLMPSMSL1"),
                 HOMEKIT_CHARACTERISTIC(MODEL, "Mood Light"),
                 HOMEKIT_CHARACTERISTIC(FIRMWARE_REVISION, "1.0.0"),
                 HOMEKIT_CHARACTERISTIC(IDENTIFY, identify_mood),
